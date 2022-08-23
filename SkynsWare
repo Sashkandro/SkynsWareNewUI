@@ -1,0 +1,1945 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local sw = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local Menu = Instance.new("Frame")
+local AdminFrame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local AdoptMe = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local AdoptMe_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local AdoptMe_3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Frame_5 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local AdoptMe_4 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local MainFrame = Instance.new("Frame")
+local DisplayName = Instance.new("TextLabel")
+local UserName = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local HubsFrame = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local AdoptMe_5 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Frame_7 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local AdoptMe_6 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Frame_8 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local AdoptMe_7 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Frame_9 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local AdoptMe_8 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local GamesFrame = Instance.new("ScrollingFrame")
+local Frame_10 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local AdoptMe_9 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Frame_11 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local AdoptMe_10 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Frame_12 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local AdoptMe_11 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local Frame_13 = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local AdoptMe_12 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Frame_14 = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local AdoptMe_13 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Frame_15 = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_17 = Instance.new("TextLabel")
+local AdoptMe_14 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Frame_16 = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local TextLabel_18 = Instance.new("TextLabel")
+local AdoptMe_15 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Frame_17 = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local TextLabel_19 = Instance.new("TextLabel")
+local AdoptMe_16 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local Frame_18 = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local TextLabel_20 = Instance.new("TextLabel")
+local AdoptMe_17 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local Frame_19 = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local TextLabel_21 = Instance.new("TextLabel")
+local AdoptMe_18 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local Frame_20 = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
+local TextLabel_22 = Instance.new("TextLabel")
+local AdoptMe_19 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local Frame_21 = Instance.new("Frame")
+local UICorner_39 = Instance.new("UICorner")
+local TextLabel_23 = Instance.new("TextLabel")
+local AdoptMe_20 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local Frame_22 = Instance.new("Frame")
+local UICorner_41 = Instance.new("UICorner")
+local TextLabel_24 = Instance.new("TextLabel")
+local AdoptMe_21 = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local Frame_23 = Instance.new("Frame")
+local UICorner_43 = Instance.new("UICorner")
+local TextLabel_25 = Instance.new("TextLabel")
+local AdoptMe_22 = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local Frame_24 = Instance.new("Frame")
+local UICorner_45 = Instance.new("UICorner")
+local TextLabel_26 = Instance.new("TextLabel")
+local AdoptMe_23 = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local Frame_25 = Instance.new("Frame")
+local UICorner_47 = Instance.new("UICorner")
+local TextLabel_27 = Instance.new("TextLabel")
+local AdoptMe_24 = Instance.new("TextButton")
+local UICorner_48 = Instance.new("UICorner")
+local Frame_26 = Instance.new("Frame")
+local UICorner_49 = Instance.new("UICorner")
+local TextLabel_28 = Instance.new("TextLabel")
+local AdoptMe_25 = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
+local Frame_27 = Instance.new("Frame")
+local UICorner_51 = Instance.new("UICorner")
+local TextLabel_29 = Instance.new("TextLabel")
+local AdoptMe_26 = Instance.new("TextButton")
+local UICorner_52 = Instance.new("UICorner")
+local Frame_28 = Instance.new("Frame")
+local UICorner_53 = Instance.new("UICorner")
+local TextLabel_30 = Instance.new("TextLabel")
+local AdoptMe_27 = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local Frame_29 = Instance.new("Frame")
+local UICorner_55 = Instance.new("UICorner")
+local TextLabel_31 = Instance.new("TextLabel")
+local AdoptMe_28 = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+local Frame_30 = Instance.new("Frame")
+local UICorner_57 = Instance.new("UICorner")
+local TextLabel_32 = Instance.new("TextLabel")
+local AdoptMe_29 = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local Frame_31 = Instance.new("Frame")
+local UICorner_59 = Instance.new("UICorner")
+local TappingSimulator = Instance.new("TextLabel")
+local AdoptMe_30 = Instance.new("TextButton")
+local UICorner_60 = Instance.new("UICorner")
+local Frame_32 = Instance.new("Frame")
+local UICorner_61 = Instance.new("UICorner")
+local TextLabel_33 = Instance.new("TextLabel")
+local AdoptMe_31 = Instance.new("TextButton")
+local UICorner_62 = Instance.new("UICorner")
+local Frame_33 = Instance.new("Frame")
+local UICorner_63 = Instance.new("UICorner")
+local TappingSimulator_2 = Instance.new("TextLabel")
+local AdoptMe_32 = Instance.new("TextButton")
+local UICorner_64 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local backspace = Instance.new("ImageButton")
+local TextButton_2 = Instance.new("TextButton")
+local person = Instance.new("ImageButton")
+local shub = Instance.new("TextButton")
+local note = Instance.new("ImageButton")
+local TextLabel_34 = Instance.new("TextLabel")
+local TextLabel_35 = Instance.new("TextLabel")
+local TextLabel_36 = Instance.new("TextLabel")
+local TextLabel_37 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local book = Instance.new("ImageButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+sw.Name = "sw"
+sw.Parent = ScreenGui
+sw.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+sw.Position = UDim2.new(0.312983662, 0, 0.0481347777, 0)
+sw.Size = UDim2.new(0, 575, 0, 751)
+
+Frame.Parent = sw
+Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Frame.BackgroundTransparency = 0.100
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.397404045, 0, 0.000454198569, 0)
+Frame.Size = UDim2.new(0, 229, 0, 753)
+
+Menu.Name = "Menu"
+Menu.Parent = Frame
+Menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Menu.BackgroundTransparency = 1.000
+Menu.Size = UDim2.new(0, 229, 0, 753)
+
+AdminFrame.Name = "AdminFrame"
+AdminFrame.Parent = sw
+AdminFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+AdminFrame.Position = UDim2.new(-0.000943019695, 0, 0.000454187713, 0)
+AdminFrame.Size = UDim2.new(0, 575, 0, 749)
+AdminFrame.Visible = false
+
+Frame_2.Parent = AdminFrame
+Frame_2.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_2.Position = UDim2.new(0.553043485, 0, 0.0480990857, 0)
+Frame_2.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner.Parent = Frame_2
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel.Size = UDim2.new(0, 219, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Reviz"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 35.000
+TextLabel.TextWrapped = true
+
+AdoptMe.Name = "Adopt Me"
+AdoptMe.Parent = Frame_2
+AdoptMe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe.BackgroundTransparency = 0.400
+AdoptMe.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe.Font = Enum.Font.SourceSansBold
+AdoptMe.Text = "Press to load script"
+AdoptMe.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe.TextScaled = true
+AdoptMe.TextSize = 37.000
+AdoptMe.TextWrapped = true
+
+UICorner_2.Parent = AdoptMe
+
+Frame_3.Parent = AdminFrame
+Frame_3.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_3.Position = UDim2.new(0.0660869777, 0, 0.0480990857, 0)
+Frame_3.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_3.Parent = Frame_3
+
+TextLabel_2.Parent = Frame_3
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_2.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "CMD-X"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 35.000
+TextLabel_2.TextWrapped = true
+
+AdoptMe_2.Name = "Adopt Me"
+AdoptMe_2.Parent = Frame_3
+AdoptMe_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_2.BackgroundTransparency = 0.400
+AdoptMe_2.Position = UDim2.new(0.0341941789, 0, 0.418666244, 0)
+AdoptMe_2.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_2.Font = Enum.Font.SourceSansBold
+AdoptMe_2.Text = "Press to load script"
+AdoptMe_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_2.TextScaled = true
+AdoptMe_2.TextSize = 37.000
+AdoptMe_2.TextWrapped = true
+
+UICorner_4.Parent = AdoptMe_2
+
+Frame_4.Parent = AdminFrame
+Frame_4.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_4.Position = UDim2.new(0.0660869777, 0, 0.42892468, 0)
+Frame_4.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_5.Parent = Frame_4
+
+TextLabel_3.Parent = Frame_4
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_3.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Fate`s"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 35.000
+TextLabel_3.TextWrapped = true
+
+AdoptMe_3.Name = "Adopt Me"
+AdoptMe_3.Parent = Frame_4
+AdoptMe_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_3.BackgroundTransparency = 0.400
+AdoptMe_3.Position = UDim2.new(0.0341941789, 0, 0.418666244, 0)
+AdoptMe_3.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_3.Font = Enum.Font.SourceSansBold
+AdoptMe_3.Text = "Press to load script"
+AdoptMe_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_3.TextScaled = true
+AdoptMe_3.TextSize = 37.000
+AdoptMe_3.TextWrapped = true
+
+UICorner_6.Parent = AdoptMe_3
+
+Frame_5.Parent = AdminFrame
+Frame_5.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_5.Position = UDim2.new(0.553043485, 0, 0.42892468, 0)
+Frame_5.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_7.Parent = Frame_5
+
+TextLabel_4.Parent = Frame_5
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_4.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Infinite Yield"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 35.000
+TextLabel_4.TextWrapped = true
+
+AdoptMe_4.Name = "Adopt Me"
+AdoptMe_4.Parent = Frame_5
+AdoptMe_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_4.BackgroundTransparency = 0.400
+AdoptMe_4.Position = UDim2.new(0.0341941789, 0, 0.418666244, 0)
+AdoptMe_4.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_4.Font = Enum.Font.SourceSansBold
+AdoptMe_4.Text = "Press to load script"
+AdoptMe_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_4.TextScaled = true
+AdoptMe_4.TextSize = 37.000
+AdoptMe_4.TextWrapped = true
+
+UICorner_8.Parent = AdoptMe_4
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = sw
+MainFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+MainFrame.Position = UDim2.new(-0.000943019695, 0, 0.000454187713, 0)
+MainFrame.Size = UDim2.new(0, 575, 0, 750)
+
+DisplayName.Name = "DisplayName"
+DisplayName.Parent = MainFrame
+DisplayName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DisplayName.BackgroundTransparency = 1.000
+DisplayName.Position = UDim2.new(0.289888024, 0, 0.16047436, 0)
+DisplayName.Size = UDim2.new(0.37255016, 0, 0.0702739134, 0)
+DisplayName.Font = Enum.Font.SourceSansBold
+DisplayName.Text = "Name"
+DisplayName.TextColor3 = Color3.fromRGB(255, 255, 255)
+DisplayName.TextScaled = true
+DisplayName.TextSize = 31.000
+DisplayName.TextWrapped = true
+
+UserName.Name = "UserName"
+UserName.Parent = MainFrame
+UserName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UserName.BackgroundTransparency = 1.000
+UserName.Position = UDim2.new(0.370264441, 0, 1.21415293, 0)
+UserName.Size = UDim2.new(0.26066947, 0, 0.215360254, 0)
+UserName.Font = Enum.Font.GothamBold
+UserName.Text = "Name"
+UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
+UserName.TextSize = 11.000
+UserName.TextWrapped = true
+
+TextLabel_5.Parent = MainFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.13554582, 0, 0.387683153, 0)
+TextLabel_5.Size = UDim2.new(0, 417, 0, 76)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "https://discord.gg/KXVtGWQAXs"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 35.000
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = MainFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.135204047, 0, 0.285471499, 0)
+TextLabel_6.Size = UDim2.new(0, 417, 0, 76)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Discord Link:"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+TextLabel_7.Parent = MainFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.135204047, 0, 0.035138607, 0)
+TextLabel_7.Size = UDim2.new(0, 417, 0, 76)
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Welcome to SkynsWare"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+HubsFrame.Name = "HubsFrame"
+HubsFrame.Parent = sw
+HubsFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+HubsFrame.Position = UDim2.new(-0.000943019695, 0, 0.000454187713, 0)
+HubsFrame.Size = UDim2.new(0, 575, 0, 752)
+HubsFrame.Visible = false
+
+Frame_6.Parent = HubsFrame
+Frame_6.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_6.Position = UDim2.new(0.0678260773, 0, 0.0480990894, 0)
+Frame_6.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_9.Parent = Frame_6
+
+TextLabel_8.Parent = Frame_6
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_8.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Domain X"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 35.000
+TextLabel_8.TextWrapped = true
+
+AdoptMe_5.Name = "Adopt Me"
+AdoptMe_5.Parent = Frame_6
+AdoptMe_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_5.BackgroundTransparency = 0.400
+AdoptMe_5.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_5.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_5.Font = Enum.Font.SourceSansBold
+AdoptMe_5.Text = "Press to load script"
+AdoptMe_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_5.TextScaled = true
+AdoptMe_5.TextSize = 37.000
+AdoptMe_5.TextWrapped = true
+
+UICorner_10.Parent = AdoptMe_5
+
+Frame_7.Parent = HubsFrame
+Frame_7.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_7.Position = UDim2.new(0.547825992, 0, 0.667617321, 0)
+Frame_7.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_11.Parent = Frame_7
+
+TextLabel_9.Parent = Frame_7
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_9.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "Fathom Hub"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 35.000
+TextLabel_9.TextWrapped = true
+
+AdoptMe_6.Name = "Adopt Me"
+AdoptMe_6.Parent = Frame_7
+AdoptMe_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_6.BackgroundTransparency = 0.400
+AdoptMe_6.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_6.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_6.Font = Enum.Font.SourceSansBold
+AdoptMe_6.Text = "Press to load script"
+AdoptMe_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_6.TextScaled = true
+AdoptMe_6.TextSize = 37.000
+AdoptMe_6.TextWrapped = true
+
+UICorner_12.Parent = AdoptMe_6
+
+Frame_8.Parent = HubsFrame
+Frame_8.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_8.Position = UDim2.new(0.0713043213, 0, 0.667617321, 0)
+Frame_8.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_13.Parent = Frame_8
+
+TextLabel_10.Parent = Frame_8
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_10.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_10.Font = Enum.Font.SourceSansBold
+TextLabel_10.Text = "VG Hub"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 35.000
+TextLabel_10.TextWrapped = true
+
+AdoptMe_7.Name = "Adopt Me"
+AdoptMe_7.Parent = Frame_8
+AdoptMe_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_7.BackgroundTransparency = 0.400
+AdoptMe_7.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_7.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_7.Font = Enum.Font.SourceSansBold
+AdoptMe_7.Text = "Press to load script"
+AdoptMe_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_7.TextScaled = true
+AdoptMe_7.TextSize = 37.000
+AdoptMe_7.TextWrapped = true
+
+UICorner_14.Parent = AdoptMe_7
+
+Frame_9.Parent = HubsFrame
+Frame_9.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_9.Position = UDim2.new(0.553043485, 0, 0.0480990857, 0)
+Frame_9.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_15.Parent = Frame_9
+
+TextLabel_11.Parent = Frame_9
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_11.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_11.Font = Enum.Font.SourceSansBold
+TextLabel_11.Text = "Owl Hub"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 35.000
+TextLabel_11.TextWrapped = true
+
+AdoptMe_8.Name = "Adopt Me"
+AdoptMe_8.Parent = Frame_9
+AdoptMe_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_8.BackgroundTransparency = 0.400
+AdoptMe_8.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_8.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_8.Font = Enum.Font.SourceSansBold
+AdoptMe_8.Text = "Press to load script"
+AdoptMe_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_8.TextScaled = true
+AdoptMe_8.TextSize = 37.000
+AdoptMe_8.TextWrapped = true
+
+UICorner_16.Parent = AdoptMe_8
+
+GamesFrame.Name = "GamesFrame"
+GamesFrame.Parent = sw
+GamesFrame.Active = true
+GamesFrame.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+GamesFrame.Size = UDim2.new(0, 575, 0, 753)
+GamesFrame.Visible = false
+GamesFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
+
+Frame_10.Parent = GamesFrame
+Frame_10.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_10.Position = UDim2.new(0.0452173911, 0, 0.0046888832, 0)
+Frame_10.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_17.Parent = Frame_10
+
+TextLabel_12.Parent = Frame_10
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_12.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_12.Font = Enum.Font.SourceSansBold
+TextLabel_12.Text = "Adopt Me"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 35.000
+TextLabel_12.TextWrapped = true
+
+AdoptMe_9.Name = "Adopt Me"
+AdoptMe_9.Parent = Frame_10
+AdoptMe_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_9.BackgroundTransparency = 0.400
+AdoptMe_9.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_9.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_9.Font = Enum.Font.SourceSansBold
+AdoptMe_9.Text = "Press to load script"
+AdoptMe_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_9.TextScaled = true
+AdoptMe_9.TextSize = 37.000
+AdoptMe_9.TextWrapped = true
+
+UICorner_18.Parent = AdoptMe_9
+
+Frame_11.Parent = GamesFrame
+Frame_11.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_11.Position = UDim2.new(0.52347827, 0, 0.0046888832, 0)
+Frame_11.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_19.Parent = Frame_11
+
+TextLabel_13.Parent = Frame_11
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_13.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_13.Font = Enum.Font.SourceSansBold
+TextLabel_13.Text = "Anime Clicker"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 35.000
+TextLabel_13.TextWrapped = true
+
+AdoptMe_10.Name = "Adopt Me"
+AdoptMe_10.Parent = Frame_11
+AdoptMe_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_10.BackgroundTransparency = 0.400
+AdoptMe_10.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_10.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_10.Font = Enum.Font.SourceSansBold
+AdoptMe_10.Text = "Press to load script"
+AdoptMe_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_10.TextScaled = true
+AdoptMe_10.TextSize = 37.000
+AdoptMe_10.TextWrapped = true
+
+UICorner_20.Parent = AdoptMe_10
+
+Frame_12.Parent = GamesFrame
+Frame_12.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_12.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_12.Position = UDim2.new(0.0452173911, 0, 0.0750740096, 0)
+Frame_12.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_21.Parent = Frame_12
+
+TextLabel_14.Parent = Frame_12
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_14.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_14.Font = Enum.Font.SourceSansBold
+TextLabel_14.Text = "Bee Swarm"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 35.000
+TextLabel_14.TextWrapped = true
+
+AdoptMe_11.Name = "Adopt Me"
+AdoptMe_11.Parent = Frame_12
+AdoptMe_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_11.BackgroundTransparency = 0.400
+AdoptMe_11.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_11.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_11.Font = Enum.Font.SourceSansBold
+AdoptMe_11.Text = "Press to load script"
+AdoptMe_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_11.TextScaled = true
+AdoptMe_11.TextSize = 37.000
+AdoptMe_11.TextWrapped = true
+
+UICorner_22.Parent = AdoptMe_11
+
+Frame_13.Parent = GamesFrame
+Frame_13.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_13.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_13.Position = UDim2.new(0.52347827, 0, 0.0750740096, 0)
+Frame_13.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_23.Parent = Frame_13
+
+TextLabel_15.Parent = Frame_13
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_15.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_15.Font = Enum.Font.SourceSansBold
+TextLabel_15.Text = "Blox Fruits"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 35.000
+TextLabel_15.TextWrapped = true
+
+AdoptMe_12.Name = "Adopt Me"
+AdoptMe_12.Parent = Frame_13
+AdoptMe_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_12.BackgroundTransparency = 0.400
+AdoptMe_12.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_12.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_12.Font = Enum.Font.SourceSansBold
+AdoptMe_12.Text = "Press to load script"
+AdoptMe_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_12.TextScaled = true
+AdoptMe_12.TextSize = 37.000
+AdoptMe_12.TextWrapped = true
+
+UICorner_24.Parent = AdoptMe_12
+
+Frame_14.Parent = GamesFrame
+Frame_14.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_14.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_14.Position = UDim2.new(0.0452173911, 0, 0.143599913, 0)
+Frame_14.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_25.Parent = Frame_14
+
+TextLabel_16.Parent = Frame_14
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_16.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_16.Font = Enum.Font.SourceSansBold
+TextLabel_16.Text = "Build A Boat"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 35.000
+TextLabel_16.TextWrapped = true
+
+AdoptMe_13.Name = "Adopt Me"
+AdoptMe_13.Parent = Frame_14
+AdoptMe_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_13.BackgroundTransparency = 0.400
+AdoptMe_13.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_13.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_13.Font = Enum.Font.SourceSansBold
+AdoptMe_13.Text = "Press to load script"
+AdoptMe_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_13.TextScaled = true
+AdoptMe_13.TextSize = 37.000
+AdoptMe_13.TextWrapped = true
+
+UICorner_26.Parent = AdoptMe_13
+
+Frame_15.Parent = GamesFrame
+Frame_15.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_15.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_15.Position = UDim2.new(0.52347827, 0, 0.143599913, 0)
+Frame_15.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_27.Parent = Frame_15
+
+TextLabel_17.Parent = Frame_15
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_17.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_17.Font = Enum.Font.SourceSansBold
+TextLabel_17.Text = "Critical Legend"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 35.000
+TextLabel_17.TextWrapped = true
+
+AdoptMe_14.Name = "Adopt Me"
+AdoptMe_14.Parent = Frame_15
+AdoptMe_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_14.BackgroundTransparency = 0.400
+AdoptMe_14.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_14.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_14.Font = Enum.Font.SourceSansBold
+AdoptMe_14.Text = "Press to load script"
+AdoptMe_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_14.TextScaled = true
+AdoptMe_14.TextSize = 37.000
+AdoptMe_14.TextWrapped = true
+
+UICorner_28.Parent = AdoptMe_14
+
+Frame_16.Parent = GamesFrame
+Frame_16.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_16.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_16.Position = UDim2.new(0.52347827, 0, 0.212391406, 0)
+Frame_16.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_29.Parent = Frame_16
+
+TextLabel_18.Parent = Frame_16
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_18.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_18.Font = Enum.Font.SourceSansBold
+TextLabel_18.Text = "Critical Legend"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 35.000
+TextLabel_18.TextWrapped = true
+
+AdoptMe_15.Name = "Adopt Me"
+AdoptMe_15.Parent = Frame_16
+AdoptMe_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_15.BackgroundTransparency = 0.400
+AdoptMe_15.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_15.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_15.Font = Enum.Font.SourceSansBold
+AdoptMe_15.Text = "Press to load script"
+AdoptMe_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_15.TextScaled = true
+AdoptMe_15.TextSize = 37.000
+AdoptMe_15.TextWrapped = true
+
+UICorner_30.Parent = AdoptMe_15
+
+Frame_17.Parent = GamesFrame
+Frame_17.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_17.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_17.Position = UDim2.new(0.0452173911, 0, 0.212391406, 0)
+Frame_17.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_31.Parent = Frame_17
+
+TextLabel_19.Parent = Frame_17
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_19.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_19.Font = Enum.Font.SourceSansBold
+TextLabel_19.Text = "Build A Boat"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 35.000
+TextLabel_19.TextWrapped = true
+
+AdoptMe_16.Name = "Adopt Me"
+AdoptMe_16.Parent = Frame_17
+AdoptMe_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_16.BackgroundTransparency = 0.400
+AdoptMe_16.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_16.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_16.Font = Enum.Font.SourceSansBold
+AdoptMe_16.Text = "Press to load script"
+AdoptMe_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_16.TextScaled = true
+AdoptMe_16.TextSize = 37.000
+AdoptMe_16.TextWrapped = true
+
+UICorner_32.Parent = AdoptMe_16
+
+Frame_18.Parent = GamesFrame
+Frame_18.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_18.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_18.Position = UDim2.new(0.0452173911, 0, 0.280120492, 0)
+Frame_18.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_33.Parent = Frame_18
+
+TextLabel_20.Parent = Frame_18
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_20.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_20.Font = Enum.Font.SourceSansBold
+TextLabel_20.Text = "Eating Simulator"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 35.000
+TextLabel_20.TextWrapped = true
+
+AdoptMe_17.Name = "Adopt Me"
+AdoptMe_17.Parent = Frame_18
+AdoptMe_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_17.BackgroundTransparency = 0.400
+AdoptMe_17.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_17.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_17.Font = Enum.Font.SourceSansBold
+AdoptMe_17.Text = "Press to load script"
+AdoptMe_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_17.TextScaled = true
+AdoptMe_17.TextSize = 37.000
+AdoptMe_17.TextWrapped = true
+
+UICorner_34.Parent = AdoptMe_17
+
+Frame_19.Parent = GamesFrame
+Frame_19.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_19.Position = UDim2.new(0.52347827, 0, 0.280120492, 0)
+Frame_19.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_35.Parent = Frame_19
+
+TextLabel_21.Parent = Frame_19
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_21.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_21.Font = Enum.Font.SourceSansBold
+TextLabel_21.Text = "Factory Simulator"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextScaled = true
+TextLabel_21.TextSize = 35.000
+TextLabel_21.TextWrapped = true
+
+AdoptMe_18.Name = "Adopt Me"
+AdoptMe_18.Parent = Frame_19
+AdoptMe_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_18.BackgroundTransparency = 0.400
+AdoptMe_18.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_18.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_18.Font = Enum.Font.SourceSansBold
+AdoptMe_18.Text = "Press to load script"
+AdoptMe_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_18.TextScaled = true
+AdoptMe_18.TextSize = 37.000
+AdoptMe_18.TextWrapped = true
+
+UICorner_36.Parent = AdoptMe_18
+
+Frame_20.Parent = GamesFrame
+Frame_20.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_20.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_20.Position = UDim2.new(0.0452173911, 0, 0.344927937, 0)
+Frame_20.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_37.Parent = Frame_20
+
+TextLabel_22.Parent = Frame_20
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_22.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_22.Font = Enum.Font.SourceSansBold
+TextLabel_22.Text = "Lifting Simulator"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 35.000
+TextLabel_22.TextWrapped = true
+
+AdoptMe_19.Name = "Adopt Me"
+AdoptMe_19.Parent = Frame_20
+AdoptMe_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_19.BackgroundTransparency = 0.400
+AdoptMe_19.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_19.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_19.Font = Enum.Font.SourceSansBold
+AdoptMe_19.Text = "Press to load script"
+AdoptMe_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_19.TextScaled = true
+AdoptMe_19.TextSize = 37.000
+AdoptMe_19.TextWrapped = true
+
+UICorner_38.Parent = AdoptMe_19
+
+Frame_21.Parent = GamesFrame
+Frame_21.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_21.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_21.Position = UDim2.new(0.52347827, 0, 0.344927937, 0)
+Frame_21.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_39.Parent = Frame_21
+
+TextLabel_23.Parent = Frame_21
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_23.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_23.Font = Enum.Font.SourceSansBold
+TextLabel_23.Text = "Loot Quest"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 35.000
+TextLabel_23.TextWrapped = true
+
+AdoptMe_20.Name = "Adopt Me"
+AdoptMe_20.Parent = Frame_21
+AdoptMe_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_20.BackgroundTransparency = 0.400
+AdoptMe_20.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_20.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_20.Font = Enum.Font.SourceSansBold
+AdoptMe_20.Text = "Press to load script"
+AdoptMe_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_20.TextScaled = true
+AdoptMe_20.TextSize = 37.000
+AdoptMe_20.TextWrapped = true
+
+UICorner_40.Parent = AdoptMe_20
+
+Frame_22.Parent = GamesFrame
+Frame_22.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_22.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_22.Position = UDim2.new(0.0452173911, 0, 0.344927937, 0)
+Frame_22.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_41.Parent = Frame_22
+
+TextLabel_24.Parent = Frame_22
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_24.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_24.Font = Enum.Font.SourceSansBold
+TextLabel_24.Text = "Lifting Simulator"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextSize = 35.000
+TextLabel_24.TextWrapped = true
+
+AdoptMe_21.Name = "Adopt Me"
+AdoptMe_21.Parent = Frame_22
+AdoptMe_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_21.BackgroundTransparency = 0.400
+AdoptMe_21.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_21.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_21.Font = Enum.Font.SourceSansBold
+AdoptMe_21.Text = "Press to load script"
+AdoptMe_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_21.TextScaled = true
+AdoptMe_21.TextSize = 37.000
+AdoptMe_21.TextWrapped = true
+
+UICorner_42.Parent = AdoptMe_21
+
+Frame_23.Parent = GamesFrame
+Frame_23.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_23.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_23.Position = UDim2.new(0.52347827, 0, 0.344927937, 0)
+Frame_23.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_43.Parent = Frame_23
+
+TextLabel_25.Parent = Frame_23
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_25.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_25.Font = Enum.Font.SourceSansBold
+TextLabel_25.Text = "Loot Quest"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextScaled = true
+TextLabel_25.TextSize = 35.000
+TextLabel_25.TextWrapped = true
+
+AdoptMe_22.Name = "Adopt Me"
+AdoptMe_22.Parent = Frame_23
+AdoptMe_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_22.BackgroundTransparency = 0.400
+AdoptMe_22.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_22.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_22.Font = Enum.Font.SourceSansBold
+AdoptMe_22.Text = "Press to load script"
+AdoptMe_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_22.TextScaled = true
+AdoptMe_22.TextSize = 37.000
+AdoptMe_22.TextWrapped = true
+
+UICorner_44.Parent = AdoptMe_22
+
+Frame_24.Parent = GamesFrame
+Frame_24.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_24.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_24.Position = UDim2.new(0.52347827, 0, 0.411329001, 0)
+Frame_24.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_45.Parent = Frame_24
+
+TextLabel_26.Parent = Frame_24
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_26.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_26.Font = Enum.Font.SourceSansBold
+TextLabel_26.Text = "Mad City"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextScaled = true
+TextLabel_26.TextSize = 35.000
+TextLabel_26.TextWrapped = true
+
+AdoptMe_23.Name = "Adopt Me"
+AdoptMe_23.Parent = Frame_24
+AdoptMe_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_23.BackgroundTransparency = 0.400
+AdoptMe_23.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_23.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_23.Font = Enum.Font.SourceSansBold
+AdoptMe_23.Text = "Press to load script"
+AdoptMe_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_23.TextScaled = true
+AdoptMe_23.TextSize = 37.000
+AdoptMe_23.TextWrapped = true
+
+UICorner_46.Parent = AdoptMe_23
+
+Frame_25.Parent = GamesFrame
+Frame_25.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_25.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_25.Position = UDim2.new(0.0452173911, 0, 0.411329001, 0)
+Frame_25.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_47.Parent = Frame_25
+
+TextLabel_27.Parent = Frame_25
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_27.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_27.Font = Enum.Font.SourceSansBold
+TextLabel_27.Text = "MM2"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 35.000
+TextLabel_27.TextWrapped = true
+
+AdoptMe_24.Name = "Adopt Me"
+AdoptMe_24.Parent = Frame_25
+AdoptMe_24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_24.BackgroundTransparency = 0.400
+AdoptMe_24.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_24.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_24.Font = Enum.Font.SourceSansBold
+AdoptMe_24.Text = "Press to load script"
+AdoptMe_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_24.TextScaled = true
+AdoptMe_24.TextSize = 37.000
+AdoptMe_24.TextWrapped = true
+
+UICorner_48.Parent = AdoptMe_24
+
+Frame_26.Parent = GamesFrame
+Frame_26.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_26.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_26.Position = UDim2.new(0.52347827, 0, 0.478792489, 0)
+Frame_26.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_49.Parent = Frame_26
+
+TextLabel_28.Parent = Frame_26
+TextLabel_28.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.BackgroundTransparency = 1.000
+TextLabel_28.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_28.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_28.Font = Enum.Font.SourceSansBold
+TextLabel_28.Text = "No Jumping Difficulty Chart Obby"
+TextLabel_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_28.TextScaled = true
+TextLabel_28.TextSize = 35.000
+TextLabel_28.TextWrapped = true
+
+AdoptMe_25.Name = "Adopt Me"
+AdoptMe_25.Parent = Frame_26
+AdoptMe_25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_25.BackgroundTransparency = 0.400
+AdoptMe_25.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_25.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_25.Font = Enum.Font.SourceSansBold
+AdoptMe_25.Text = "Press to load script"
+AdoptMe_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_25.TextScaled = true
+AdoptMe_25.TextSize = 37.000
+AdoptMe_25.TextWrapped = true
+
+UICorner_50.Parent = AdoptMe_25
+
+Frame_27.Parent = GamesFrame
+Frame_27.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_27.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_27.Position = UDim2.new(0.0452173911, 0, 0.478792489, 0)
+Frame_27.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_51.Parent = Frame_27
+
+TextLabel_29.Parent = Frame_27
+TextLabel_29.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.BackgroundTransparency = 1.000
+TextLabel_29.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_29.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_29.Font = Enum.Font.SourceSansBold
+TextLabel_29.Text = "Magnet Simulator 2"
+TextLabel_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_29.TextScaled = true
+TextLabel_29.TextSize = 35.000
+TextLabel_29.TextWrapped = true
+
+AdoptMe_26.Name = "Adopt Me"
+AdoptMe_26.Parent = Frame_27
+AdoptMe_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_26.BackgroundTransparency = 0.400
+AdoptMe_26.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_26.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_26.Font = Enum.Font.SourceSansBold
+AdoptMe_26.Text = "Press to load script"
+AdoptMe_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_26.TextScaled = true
+AdoptMe_26.TextSize = 37.000
+AdoptMe_26.TextWrapped = true
+
+UICorner_52.Parent = AdoptMe_26
+
+Frame_28.Parent = GamesFrame
+Frame_28.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_28.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_28.Position = UDim2.new(0.518260896, 0, 0.543334305, 0)
+Frame_28.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_53.Parent = Frame_28
+
+TextLabel_30.Parent = Frame_28
+TextLabel_30.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.BackgroundTransparency = 1.000
+TextLabel_30.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_30.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_30.Font = Enum.Font.SourceSansBold
+TextLabel_30.Text = "RPG Simulator"
+TextLabel_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_30.TextScaled = true
+TextLabel_30.TextSize = 35.000
+TextLabel_30.TextWrapped = true
+
+AdoptMe_27.Name = "Adopt Me"
+AdoptMe_27.Parent = Frame_28
+AdoptMe_27.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_27.BackgroundTransparency = 0.400
+AdoptMe_27.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_27.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_27.Font = Enum.Font.SourceSansBold
+AdoptMe_27.Text = "Press to load script"
+AdoptMe_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_27.TextScaled = true
+AdoptMe_27.TextSize = 37.000
+AdoptMe_27.TextWrapped = true
+
+UICorner_54.Parent = AdoptMe_27
+
+Frame_29.Parent = GamesFrame
+Frame_29.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_29.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_29.Position = UDim2.new(0.0399999991, 0, 0.543334305, 0)
+Frame_29.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_55.Parent = Frame_29
+
+TextLabel_31.Parent = Frame_29
+TextLabel_31.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.BackgroundTransparency = 1.000
+TextLabel_31.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_31.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_31.Font = Enum.Font.SourceSansBold
+TextLabel_31.Text = "Pet Simulator X"
+TextLabel_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_31.TextScaled = true
+TextLabel_31.TextSize = 35.000
+TextLabel_31.TextWrapped = true
+
+AdoptMe_28.Name = "Adopt Me"
+AdoptMe_28.Parent = Frame_29
+AdoptMe_28.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_28.BackgroundTransparency = 0.400
+AdoptMe_28.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_28.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_28.Font = Enum.Font.SourceSansBold
+AdoptMe_28.Text = "Press to load script"
+AdoptMe_28.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_28.TextScaled = true
+AdoptMe_28.TextSize = 37.000
+AdoptMe_28.TextWrapped = true
+
+UICorner_56.Parent = AdoptMe_28
+
+Frame_30.Parent = GamesFrame
+Frame_30.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_30.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_30.Position = UDim2.new(0.52347827, 0, 0.607876122, 0)
+Frame_30.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_57.Parent = Frame_30
+
+TextLabel_32.Parent = Frame_30
+TextLabel_32.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.BackgroundTransparency = 1.000
+TextLabel_32.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_32.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_32.Font = Enum.Font.SourceSansBold
+TextLabel_32.Text = "Tower Desense Simulator"
+TextLabel_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_32.TextScaled = true
+TextLabel_32.TextSize = 35.000
+TextLabel_32.TextWrapped = true
+
+AdoptMe_29.Name = "Adopt Me"
+AdoptMe_29.Parent = Frame_30
+AdoptMe_29.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_29.BackgroundTransparency = 0.400
+AdoptMe_29.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_29.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_29.Font = Enum.Font.SourceSansBold
+AdoptMe_29.Text = "Press to load script"
+AdoptMe_29.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_29.TextScaled = true
+AdoptMe_29.TextSize = 37.000
+AdoptMe_29.TextWrapped = true
+
+UICorner_58.Parent = AdoptMe_29
+
+Frame_31.Parent = GamesFrame
+Frame_31.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_31.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_31.Position = UDim2.new(0.0452173911, 0, 0.607876122, 0)
+Frame_31.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_59.Parent = Frame_31
+
+TappingSimulator.Name = "Tapping Simulator"
+TappingSimulator.Parent = Frame_31
+TappingSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TappingSimulator.BackgroundTransparency = 1.000
+TappingSimulator.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TappingSimulator.Size = UDim2.new(0, 219, 0, 50)
+TappingSimulator.Font = Enum.Font.SourceSansBold
+TappingSimulator.Text = "Tapping Simulator"
+TappingSimulator.TextColor3 = Color3.fromRGB(255, 255, 255)
+TappingSimulator.TextScaled = true
+TappingSimulator.TextSize = 35.000
+TappingSimulator.TextWrapped = true
+
+AdoptMe_30.Name = "Adopt Me"
+AdoptMe_30.Parent = Frame_31
+AdoptMe_30.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_30.BackgroundTransparency = 0.400
+AdoptMe_30.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_30.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_30.Font = Enum.Font.SourceSansBold
+AdoptMe_30.Text = "Press to load script"
+AdoptMe_30.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_30.TextScaled = true
+AdoptMe_30.TextSize = 37.000
+AdoptMe_30.TextWrapped = true
+
+UICorner_60.Parent = AdoptMe_30
+
+Frame_32.Parent = GamesFrame
+Frame_32.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_32.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_32.Position = UDim2.new(0.52347827, 0, 0.671621144, 0)
+Frame_32.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_61.Parent = Frame_32
+
+TextLabel_33.Parent = Frame_32
+TextLabel_33.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.BackgroundTransparency = 1.000
+TextLabel_33.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TextLabel_33.Size = UDim2.new(0, 219, 0, 50)
+TextLabel_33.Font = Enum.Font.SourceSansBold
+TextLabel_33.Text = "YBA"
+TextLabel_33.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_33.TextScaled = true
+TextLabel_33.TextSize = 35.000
+TextLabel_33.TextWrapped = true
+
+AdoptMe_31.Name = "Adopt Me"
+AdoptMe_31.Parent = Frame_32
+AdoptMe_31.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_31.BackgroundTransparency = 0.400
+AdoptMe_31.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_31.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_31.Font = Enum.Font.SourceSansBold
+AdoptMe_31.Text = "Press to load script"
+AdoptMe_31.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_31.TextScaled = true
+AdoptMe_31.TextSize = 37.000
+AdoptMe_31.TextWrapped = true
+
+UICorner_62.Parent = AdoptMe_31
+
+Frame_33.Parent = GamesFrame
+Frame_33.BackgroundColor3 = Color3.fromRGB(15, 15, 36)
+Frame_33.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_33.Position = UDim2.new(0.0452173911, 0, 0.671621144, 0)
+Frame_33.Size = UDim2.new(0, 219, 0, 214)
+
+UICorner_63.Parent = Frame_33
+
+TappingSimulator_2.Name = "Tapping Simulator"
+TappingSimulator_2.Parent = Frame_33
+TappingSimulator_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TappingSimulator_2.BackgroundTransparency = 1.000
+TappingSimulator_2.Position = UDim2.new(-0.0136986226, 0, -0.0140186911, 0)
+TappingSimulator_2.Size = UDim2.new(0, 219, 0, 50)
+TappingSimulator_2.Font = Enum.Font.SourceSansBold
+TappingSimulator_2.Text = "Tower Of Hell"
+TappingSimulator_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TappingSimulator_2.TextScaled = true
+TappingSimulator_2.TextSize = 35.000
+TappingSimulator_2.TextWrapped = true
+
+AdoptMe_32.Name = "Adopt Me"
+AdoptMe_32.Parent = Frame_33
+AdoptMe_32.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe_32.BackgroundTransparency = 0.400
+AdoptMe_32.Position = UDim2.new(0.0250617601, 0, 0.418666244, 0)
+AdoptMe_32.Size = UDim2.new(0, 204, 0, 49)
+AdoptMe_32.Font = Enum.Font.SourceSansBold
+AdoptMe_32.Text = "Press to load script"
+AdoptMe_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe_32.TextScaled = true
+AdoptMe_32.TextSize = 37.000
+AdoptMe_32.TextWrapped = true
+
+UICorner_64.Parent = AdoptMe_32
+
+TextButton.Parent = sw
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(-0.374095321, 0, 0.391801655, 0)
+TextButton.Size = UDim2.new(0, 147, 0, 21)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "UnHook"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+backspace.Name = "backspace"
+backspace.Parent = TextButton
+backspace.BackgroundTransparency = 1.000
+backspace.Position = UDim2.new(0.0578231215, 0, -0.119047642, 0)
+backspace.Size = UDim2.new(0, 25, 0, 25)
+backspace.ZIndex = 2
+backspace.Image = "rbxassetid://3926307971"
+backspace.ImageColor3 = Color3.fromRGB(0, 98, 255)
+backspace.ImageRectOffset = Vector2.new(84, 84)
+backspace.ImageRectSize = Vector2.new(36, 36)
+
+TextButton_2.Parent = sw
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(-0.346094579, 0, 0.229726449, 0)
+TextButton_2.Size = UDim2.new(0, 147, 0, 21)
+TextButton_2.Font = Enum.Font.SourceSansBold
+TextButton_2.Text = "Admin Scripts"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+person.Name = "person"
+person.Parent = TextButton_2
+person.BackgroundTransparency = 1.000
+person.LayoutOrder = 6
+person.Position = UDim2.new(-0.0850340202, 0, -0.214285746, 0)
+person.Size = UDim2.new(0, 25, 0, 25)
+person.ZIndex = 2
+person.Image = "rbxassetid://3926307971"
+person.ImageColor3 = Color3.fromRGB(0, 98, 255)
+person.ImageRectOffset = Vector2.new(884, 4)
+person.ImageRectSize = Vector2.new(36, 36)
+
+shub.Name = "shub"
+shub.Parent = sw
+shub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shub.BackgroundTransparency = 1.000
+shub.Position = UDim2.new(-0.360235423, 0, 0.127504185, 0)
+shub.Size = UDim2.new(0, 147, 0, 21)
+shub.Font = Enum.Font.SourceSansBold
+shub.Text = "Script Hubs"
+shub.TextColor3 = Color3.fromRGB(255, 255, 255)
+shub.TextScaled = true
+shub.TextSize = 14.000
+shub.TextWrapped = true
+
+note.Name = "note"
+note.Parent = shub
+note.BackgroundTransparency = 1.000
+note.LayoutOrder = 3
+note.Position = UDim2.new(-0.0170068033, 0, -0.214285716, 0)
+note.Size = UDim2.new(0, 23, 0, 25)
+note.ZIndex = 2
+note.Image = "rbxassetid://3926305904"
+note.ImageColor3 = Color3.fromRGB(0, 98, 255)
+note.ImageRectOffset = Vector2.new(244, 924)
+note.ImageRectSize = Vector2.new(36, 36)
+
+TextLabel_34.Parent = sw
+TextLabel_34.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.BackgroundTransparency = 1.000
+TextLabel_34.Position = UDim2.new(-0.397372305, 0, 0.915020764, 0)
+TextLabel_34.Size = UDim2.new(0, 228, 0, 66)
+TextLabel_34.Font = Enum.Font.SourceSansBold
+TextLabel_34.Text = "user version"
+TextLabel_34.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_34.TextScaled = true
+TextLabel_34.TextSize = 14.000
+TextLabel_34.TextWrapped = true
+
+TextLabel_35.Parent = sw
+TextLabel_35.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.BackgroundTransparency = 1.000
+TextLabel_35.BorderSizePixel = 0
+TextLabel_35.Position = UDim2.new(-0.373647213, 0, 0, 0)
+TextLabel_35.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_35.Font = Enum.Font.GothamBlack
+TextLabel_35.Text = "SKYNSWARE"
+TextLabel_35.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_35.TextScaled = true
+TextLabel_35.TextSize = 14.000
+TextLabel_35.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+TextLabel_35.TextStrokeTransparency = 0.610
+TextLabel_35.TextWrapped = true
+
+TextLabel_36.Parent = sw
+TextLabel_36.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.BackgroundTransparency = 1.000
+TextLabel_36.BorderSizePixel = 0
+TextLabel_36.Position = UDim2.new(-0.460588515, 0, 0.0810163766, 0)
+TextLabel_36.Size = UDim2.new(0, 147, 0, 21)
+TextLabel_36.Font = Enum.Font.SourceSansBold
+TextLabel_36.Text = "Scripts"
+TextLabel_36.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_36.TextScaled = true
+TextLabel_36.TextSize = 14.000
+TextLabel_36.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+TextLabel_36.TextTransparency = 0.690
+TextLabel_36.TextWrapped = true
+
+TextLabel_37.Parent = sw
+TextLabel_37.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.BackgroundTransparency = 1.000
+TextLabel_37.BorderSizePixel = 0
+TextLabel_37.Position = UDim2.new(-0.461325228, 0, 0.322755158, 0)
+TextLabel_37.Size = UDim2.new(0, 147, 0, 21)
+TextLabel_37.Font = Enum.Font.SourceSansBold
+TextLabel_37.Text = "Other"
+TextLabel_37.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_37.TextScaled = true
+TextLabel_37.TextSize = 14.000
+TextLabel_37.TextStrokeColor3 = Color3.fromRGB(0, 98, 255)
+TextLabel_37.TextTransparency = 0.690
+TextLabel_37.TextWrapped = true
+
+TextButton_3.Parent = sw
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(-0.328665286, 0, 0.180617973, 0)
+TextButton_3.Size = UDim2.new(0, 147, 0, 21)
+TextButton_3.Font = Enum.Font.SourceSansBold
+TextButton_3.Text = "Script for games"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+book.Name = "book"
+book.Parent = TextButton_3
+book.BackgroundTransparency = 1.000
+book.Position = UDim2.new(-0.153061241, 0, -0.0238095373, 0)
+book.Size = UDim2.new(0, 25, 0, 25)
+book.ZIndex = 2
+book.Image = "rbxassetid://3926307971"
+book.ImageColor3 = Color3.fromRGB(0, 98, 255)
+book.ImageRectOffset = Vector2.new(244, 364)
+book.ImageRectSize = Vector2.new(36, 36)
+
+-- Scripts:
+
+local function ZLBA_fake_script() -- sw.LocalScript 
+	local script = Instance.new('LocalScript', sw)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(ZLBA_fake_script)()
+local function KNTLAV_fake_script() -- AdoptMe.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/ibFPdiF7'))()
+	end)
+end
+coroutine.wrap(KNTLAV_fake_script)()
+local function LYLKGH_fake_script() -- AdoptMe_2.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
+	end)
+end
+coroutine.wrap(LYLKGH_fake_script)()
+local function TSASB_fake_script() -- AdoptMe_3.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	end)
+end
+coroutine.wrap(TSASB_fake_script)()
+local function GJLJ_fake_script() -- AdoptMe_4.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(GJLJ_fake_script)()
+local function ECFVL_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local frame = script.Parent
+	
+	local player = game.Players.LocalPlayer
+	
+	local userId = player.UserId
+	
+	frame.DisplayName.Text = player.DisplayName
+	frame.UserName.Text = "@".. player.Name
+end
+coroutine.wrap(ECFVL_fake_script)()
+local function OIOVAF_fake_script() -- AdoptMe_5.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
+	end)
+end
+coroutine.wrap(OIOVAF_fake_script)()
+local function UBXSP_fake_script() -- AdoptMe_6.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+	end)
+end
+coroutine.wrap(UBXSP_fake_script)()
+local function TJLQ_fake_script() -- AdoptMe_7.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(TJLQ_fake_script)()
+local function YVEFAH_fake_script() -- AdoptMe_8.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(YVEFAH_fake_script)()
+local function AGUD_fake_script() -- AdoptMe_9.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/urmomjklol69/Adopt-Me-Gingerbread-Farm/main/Protected.lua", true))()
+	end)
+end
+coroutine.wrap(AGUD_fake_script)()
+local function SDRO_fake_script() -- AdoptMe_10.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader"))()
+	end)
+end
+coroutine.wrap(SDRO_fake_script)()
+local function LROYZR_fake_script() -- AdoptMe_11.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+	end)
+end
+coroutine.wrap(LROYZR_fake_script)()
+local function HROEO_fake_script() -- AdoptMe_12.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/BaconLords/Random-Shit/main/OMG.lua")()
+	end)
+end
+coroutine.wrap(HROEO_fake_script)()
+local function ZKUMKM_fake_script() -- AdoptMe_13.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/0YezNNRh",true))()
+	end)
+end
+coroutine.wrap(ZKUMKM_fake_script)()
+local function GSMVKIG_fake_script() -- AdoptMe_14.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CriticalLegendsCheetoHub/main/OpenSource"))()
+	end)
+end
+coroutine.wrap(GSMVKIG_fake_script)()
+local function QKIQEO_fake_script() -- AdoptMe_15.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CriticalLegendsCheetoHub/main/OpenSource"))()
+	end)
+end
+coroutine.wrap(QKIQEO_fake_script)()
+local function JXNC_fake_script() -- AdoptMe_16.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/0YezNNRh",true))()
+	end)
+end
+coroutine.wrap(JXNC_fake_script)()
+local function MAXRC_fake_script() -- AdoptMe_17.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://pastebinp.com/raw/eccv9pgu")()
+	end)
+end
+coroutine.wrap(MAXRC_fake_script)()
+local function ROHPA_fake_script() -- AdoptMe_18.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/FactorySim/main/FactorySim.lua"))()
+	end)
+end
+coroutine.wrap(ROHPA_fake_script)()
+local function WBIPV_fake_script() -- AdoptMe_19.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/LiftingSim/main/LiftingSimulator.lua"))()
+	end)
+end
+coroutine.wrap(WBIPV_fake_script)()
+local function XRKQA_fake_script() -- AdoptMe_20.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/LootQuest/Source.lua"))()
+	end)
+end
+coroutine.wrap(XRKQA_fake_script)()
+local function GAMKDCW_fake_script() -- AdoptMe_21.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/LiftingSim/main/LiftingSimulator.lua"))()
+	end)
+end
+coroutine.wrap(GAMKDCW_fake_script)()
+local function TNGR_fake_script() -- AdoptMe_22.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Releases/main/LootQuest/Source.lua"))()
+	end)
+end
+coroutine.wrap(TNGR_fake_script)()
+local function LRFSOI_fake_script() -- AdoptMe_23.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_23)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/mad-city/main/Protected%20(25).lua"))()
+	end)
+end
+coroutine.wrap(LRFSOI_fake_script)()
+local function HMZVRIJ_fake_script() -- AdoptMe_24.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_24)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(HMZVRIJ_fake_script)()
+local function YKQYA_fake_script() -- AdoptMe_25.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/lua-releases/main/scripts/No%20Jumping%20Difficulty%20Chart%20Obby.lua'))()
+	end)
+end
+coroutine.wrap(YKQYA_fake_script)()
+local function GHCCLN_fake_script() -- AdoptMe_26.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_26)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/roxyrekt/HubORScript/main/Magnet_Simulator_2.lua"))()
+	end)
+end
+coroutine.wrap(GHCCLN_fake_script)()
+local function FOWHB_fake_script() -- AdoptMe_27.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_27)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/RPG_Simulator.lua'))()
+	end)
+end
+coroutine.wrap(FOWHB_fake_script)()
+local function BWBE_fake_script() -- AdoptMe_28.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_28)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+	end)
+end
+coroutine.wrap(BWBE_fake_script)()
+local function DXXHXA_fake_script() -- AdoptMe_29.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_29)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://banbus.cf/scripts/autofarmconfig"))()
+	end)
+end
+coroutine.wrap(DXXHXA_fake_script)()
+local function SPUSG_fake_script() -- AdoptMe_30.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_30)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://arches-systems.com/loader.lua",true))()
+	end)
+end
+coroutine.wrap(SPUSG_fake_script)()
+local function OZUDA_fake_script() -- AdoptMe_31.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_31)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()
+	end)
+end
+coroutine.wrap(OZUDA_fake_script)()
+local function ATGOJN_fake_script() -- AdoptMe_32.LocalScript 
+	local script = Instance.new('LocalScript', AdoptMe_32)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader"))()
+	end)
+end
+coroutine.wrap(ATGOJN_fake_script)()
+local function GRWIQ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(GRWIQ_fake_script)()
+local function PHPX_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.HubsFrame.Visible = false
+		script.Parent.Parent.GamesFrame.Visible = false
+		script.Parent.Parent.AdminFrame.Visible = true
+	end)
+end
+coroutine.wrap(PHPX_fake_script)()
+local function TOVSF_fake_script() -- shub.LocalScript 
+	local script = Instance.new('LocalScript', shub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.HubsFrame.Visible = true
+		script.Parent.Parent.GamesFrame.Visible = false
+		script.Parent.Parent.AdminFrame.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(TOVSF_fake_script)()
+local function QFZPLMY_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.HubsFrame.Visible = false
+		script.Parent.Parent.GamesFrame.Visible = true
+		script.Parent.Parent.AdminFrame.Visible = false
+	end)
+end
+coroutine.wrap(QFZPLMY_fake_script)()
